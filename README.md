@@ -1,12 +1,12 @@
 # Website for learning guitar
 
 ## Table of contents 
-[description](#description) <br>
+[Description](#Description) <br>
 [Installation](#Installation) <br> 
 [Usage](#Usage) <br>
 [Credits](#Credits)
 
-### description:
+### Description:
 This website teaches you to learn guitar by giving tips on different techniques and showing different tabs for songs you can learn to play.
 
 ### Installation:
