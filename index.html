@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Learn Guitar</title>
+  </head>
+  <body>
+    <main>
+      <!-- this header is used in all 3 pages -->
+      <header>
+        <h1>Learn to play guitar!</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="lessons.html">Lessons</a>
+          <a href="songs.html">Songs to learn</a>
+        </nav>
+        <a class="forLater" href="savedForLater.html">Saved for later folder</a>
+      </header>
+
+      <div class="container">
+        <!-- left div -->
+        <div class="left">
+          <div class="mainImg">
+            <img src="images/guitar-1.jpg" alt="guitar" />
+            <div class="save">S<span class="showSave">ave</span></div>
+          </div>
+          <div class="desc">
+            <p>
+              Learning guitar can be frustrating but incredibly rewarding. If
+              you are having trouble, then here you will find some tips to help
+              you learn. <br /><br />
+              Playing will not be the same for everyone. The things you want to
+              focus on will differ depending on the genre. <br /><br />
+              Do you want to be able to shred the guitar? Learn fingerstyle for
+              acoustic playing? Whatever your choice, you will need to learn the
+              basics like chords, scales and building finger strength.
+            </p>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </div>
+          <form class="form">
+            <h3>Would you like to subscribe to our newsletter?</h3>
+            <div>
+              <input type="radio" id="yes" name="subscription" required />
+              <label for="yes">yes</label>
+            </div>
+            <div>
+              <input type="radio" id="no" name="subscription" />
+              <label for="no">no</label>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+
+        <!-- right div -->
+        <div class="right">
+          <div>
+            <h2>Different styles of music you can learn to play</h2>
+            <ul>
+              <li>Rock</li>
+              <li>Jazz</li>
+              <li>Funk</li>
+              <li>Soul</li>
+              <li>Metal</li>
+              <li>Pop</li>
+              <li>Bluegrass</li>
+              <li>Country</li>
+            </ul>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </div>
+
+          <h3>Quotes from famous guitar players</h3>
+
+          <!-- 4 aside quotes -->
+          <!-- aside 1 -->
+          <aside>
+            <div class="quoteImg">
+              <img src="images/image-1.jpg" alt="" />
+              <span>Jimi Hendrix</span>
+            </div>
+            <p>
+              “Sometimes you want to give up the guitar, you’ll hate the guitar.
+              But if you stick with it, you’re gonna be rewarded.” – Jimi
+              Hendrix
+            </p>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </aside>
+
+          <!-- aside 2 -->
+          <aside>
+            <div class="quoteImg">
+              <img src="images/image-2.jpg" alt="" />
+              <span>Tommy Emmanuel</span>
+            </div>
+            <p>
+              “One day you pick up the guitar and you feel like a great master,
+              and the next day you feel like a fool. It’s because we’re
+              different every day, but the guitar is always the same…beautiful.”
+              – Tommy Emmanuel
+            </p>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </aside>
+
+          <!-- aside 3 -->
+          <aside>
+            <div class="quoteImg">
+              <img src="images/image-3.jpg" alt="" />
+              <span>Steve Vai</span>
+            </div>
+            <p>
+              “Besides being a guitar player, I’m a big fan of the guitar. I
+              love that damn instrument.” – Steve Vai
+            </p>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </aside>
+
+          <!-- aside 4 -->
+          <aside>
+            <div class="quoteImg">
+              <img src="images/image-4.jpg" alt="" />
+              <span>Slash</span>
+            </div>
+            <p>
+              “Guitar is the best form of self-expression I know. Everything
+              else, and I’m just sort of tripping around, trying to figure my
+              way through life.” – Slash, Guns N’ Roses
+            </p>
+            <div class="save">S<span class="showSave">ave</span></div>
+          </aside>
+        </div>
+      </div>
+      <!-- comment section -->
+      <form class="form comments">
+        <h2>Leave a comment</h2>
+        <textarea id="add" placeholder="Add a comment..."></textarea>
+        <button class="post">Post comment</button>
+      </form>
+      <div class="commentSection"></div>
+    </main>
+    <!-- contact form -->
+    <footer>
+      <h2>Contact us</h2>
+      <form id="contact">
+        <input placeholder="Email" type="email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button>Submit</button>
+      </form>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

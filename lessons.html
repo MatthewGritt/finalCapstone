@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guitar Lessons</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Learn to play guitar!</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="lessons.html">Lessons</a>
+          <a href="songs.html">Songs to learn</a>
+        </nav>
+        <a class="forLater" href="savedForLater.html">Saved for later folder</a>
+      </header>
+
+      <div class="tableContainer">
+        <h2>
+          Here you will find the techniques needed to start your learning!
+        </h2>
+        <!-- table has 2 rows and 3 columns -->
+        <table>
+          <!-- first row -->
+          <tr>
+            <!-- col 1 -->
+            <td>
+              <h3>Learning chords</h3>
+              <p>
+                By learning the first basic chords, you will be ready to play
+                some of the more easier songs!
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=pYXJy5O9j2I"
+                  >Chords Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 0">Like</button>
+              </form>
+            </td>
+
+            <!-- col 2 -->
+            <td>
+              <h3>Strumming patterns</h3>
+              <p>
+                Strumming patterns help create the feel of the songs and help
+                with your rhythm playing
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=hzC0orOGARw"
+                  >Strumming Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 1">Like</button>
+              </form>
+            </td>
+
+            <!-- col 3 -->
+            <td>
+              <h3>Fingerstyle</h3>
+              <p>
+                If you're interested in playing acoustic guitar, then
+                fingerstyle is an excellent skill to learn!
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=nYWzZ7BM8pA"
+                  >Fingerstyle Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 2">Like</button>
+              </form>
+            </td>
+          </tr>
+
+          <!-- second row -->
+          <tr>
+            <!-- col 4 -->
+            <td>
+              <h3>Speed</h3>
+              <p>
+                If you want to be doing fast solos then you will need to work on
+                your speed! And also learn how to use a metronome.
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=oT4kDXl-3sY"
+                  >Speed Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 3">Like</button>
+              </form>
+            </td>
+
+            <!-- col 5 -->
+            <td>
+              <h3>Improvisation</h3>
+              <p>
+                Improvisation will help you express yourself more and is
+                important if you want to write your own songs!
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=XCXtNu7dJyM"
+                  >Improvisation Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 4">Like</button>
+              </form>
+            </td>
+
+            <!-- col 6 -->
+            <td>
+              <h3>Finger strength</h3>
+              <p>
+                To be able to play what you want to play, you will need to build
+                up your finger strength!
+              </p>
+              <div class="link">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=XDt_4ha9Xjs"
+                  >Finger strength Link</a
+                >
+              </div>
+              <div class="save">S<span class="showSave">ave</span></div>
+              <form class="like">
+                <button id="notLiked" class="likeBtn 5">Like</button>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- comment section -->
+      <form class="form comments">
+        <h2>Leave a comment</h2>
+        <textarea id="add" placeholder="Add a comment..."></textarea>
+        <button class="post">Post comment</button>
+      </form>
+      <div class="commentSection"></div>
+    </main>
+    <!-- contact form -->
+    <footer>
+      <h2>Contact us</h2>
+      <form id="contact">
+        <input placeholder="Email" type="email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button>Submit</button>
+      </form>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
