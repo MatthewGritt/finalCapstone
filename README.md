@@ -19,7 +19,7 @@ To install, click on the green button that says code, then click Download ZIP. O
 ![Screenshot (48)](https://user-images.githubusercontent.com/28726753/212743026-ecec3e80-4204-4aea-9fbd-bed23c4a3b03.png)
 
 ### Credits:
-youtube videos are from:
+Youtube videos are from:
 - [Guitareo](https://www.youtube.com/@GuitareoOfficial)
 - [Acoustic Life](https://www.youtube.com/@tacguitar)
 - [Guitar Mastery Method](https://www.youtube.com/@GuitarMasteryMethod)
