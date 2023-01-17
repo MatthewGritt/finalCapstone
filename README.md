@@ -10,7 +10,7 @@
 This website teaches you to learn guitar by giving tips on different techniques and showing different tabs for songs you can learn to play.
 
 ### Installation:
-To install, click on the green button that says code, then click on Download ZIP. Once downloaded, open the folder and double-click index.html.
+To install, click on the green button that says code, then click Download ZIP. Once downloaded, right-click the folder and click on extract all. Open the newly extracted folder and double-click index.html.
 
 ### Usage:
 - You can save sections of the website in your save for later folder by clicking on the save button.
